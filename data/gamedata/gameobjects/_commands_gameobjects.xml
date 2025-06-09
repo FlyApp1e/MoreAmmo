@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Prototype
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='Bullets']"
+        _SelectorKeys="Name"
+        Name="raybullet"
+        Price="1"/>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Bullets']"
+        _SelectorKeys="Name"
+        Name="bullet5_45"
+        Class="Bullet"
+        Price="1"/>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Bullets']"
+        _SelectorKeys="Name"
+        Name="bullet7_62"
+        Class="Bullet"
+        Price="2"/>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Bullets']"
+        _SelectorKeys="Name"
+        Name="bullet12_7"
+        Class="Bullet"
+        Price="3"/>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Bullets']"
+        _SelectorKeys="Name"
+        Name="bullet14_5"
+        Class="Bullet"
+        Price="6"/>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Bullets']"
+        _SelectorKeys="Name"
+        Name="projectile20"
+        Class="Bullet"
+        Price="12"/>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Bullets']"
+        _SelectorKeys="Name"
+        Name="projectile30"
+        Class="Bullet"
+        Price="22"/>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Bullets']"
+        _SelectorKeys="Name"
+        Name="projectile75"
+        Class="Bullet"
+        Price="36"/>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Bullets']"
+        _SelectorKeys="Name"
+        Name="projectile105"
+        Class="Bullet"
+        Price="230"/>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Bullets']"
+        _SelectorKeys="Name"
+        Name="cartridgeSmall"
+        Class="Bullet"
+        Price="10"/>
+
+    <Prototype
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Bullets']"
+        _SelectorKeys="Name"
+        Name="cartridgeBig"
+        Class="Bullet"
+        Price="220"/>
+</Prototypes>

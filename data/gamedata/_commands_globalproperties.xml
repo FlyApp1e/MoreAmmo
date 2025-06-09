@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Properties>
+    <Articles
+        _Action="Modify"
+        _Selector="Articles"
+        ProbabilityToDropGunsFromDeadVehicles="0.30"/>
+</Properties>

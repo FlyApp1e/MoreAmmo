@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="somePlasmaBunch"
+        Price="420"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="somePlasmaBunchBig"
+        Price="1080"/>
+
+    <Prototype
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="somePlasmaBunchGiant"
+        Class="PlasmaBunch"
+        Price="2140"
+        ModelFile="plasma_big01"
+        ExplosionType="PLASMA"
+        Velocity="150"
+        Acceleration="1000"
+        FlyTime="15.0"
+        Size="0.5 0.5 1"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="someLaserBeamGreen"
+        Price="45"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="someLaserBeamBlue"
+        Price="105"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="hammer01"
+        BulletPrototype="somePlasmaBunchGiant"
+        ShellsPoolSize="14"
+        WithShellsPoolLimit="true"/>
+</Prototypes>
