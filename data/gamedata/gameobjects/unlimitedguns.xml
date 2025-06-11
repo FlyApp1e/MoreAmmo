@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<!--
+$Id: SmallGuns.xml,v 1.58 2005/11/28 07:43:57 anton Exp $
+-->
+
+<Prototypes>
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "hornet01_nolimit"
+		ModelFile			= "hornet01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		TracerEffect 		="ET_PS_TRACER1"
+		TracerRange 		= "1" 
+		
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage			= "5"
+		FiringRate			= "400"
+		GroupingAngle		= "0.8"
+		FiringRange		= "500"
+		RecoilForce		= "2"
+                FiringType		= "MachineGun"
+		Price			= "280"
+			CanBeUsedInAutogenerating  =  "0"
+		Decal				= "DC_SML_MACHINEGUN"
+
+		ChargeSize     = "70"
+		RechargingTime = "2"
+
+		Durability			= "20" />
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "specter01_nolimit"
+		ModelFile			= "specter01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+				
+		TracerEffect ="ET_PS_TRACER1"
+		TracerRange = "1" 
+			
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage			= "5"
+		FiringRate			= "600"
+		GroupingAngle		= "0.8"
+		FiringRange		= "500"
+		RecoilForce		= "2"
+		FiringType		= "MachineGun"
+		Price			= "590"
+			CanBeUsedInAutogenerating  =  "0"
+		Decal				= "DC_SML_MACHINEGUN"
+
+		ChargeSize     = "70"
+		RechargingTime = "2.5"
+
+		Durability			= "20" />
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "kord01_nolimit"
+		ModelFile		= "kord01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		
+		TracerEffect ="ET_PS_TRACER1"
+		TracerRange = "1" 
+	
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage		= "10"
+		FiringRate		= "450"
+		GroupingAngle		= "0.9"
+		FiringRange		= "1000"
+		RecoilForce		= "2"
+                FiringType		= "MachineGun"
+		Price			= "3680"
+			CanBeUsedInAutogenerating  =  "0"
+		Decal				= "DC_SML_MACHINEGUN"
+
+		ChargeSize     = "55"
+		RechargingTime = "3"
+
+		Durability		= "25"/>
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "storm01_nolimit"
+		ModelFile		= "storm01"
+		ResourceType	= "SMALL_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		
+		BulletPrototype	= "raybullet"
+		ExplosionType	= "MACHINEGUN"
+		FiringEffect	= "none"
+		Damage		= "160"
+		FiringRate		= "20"
+		GroupingAngle	= "4"
+		NumBulletsInShot	= "20"
+		FiringRange		= "200"
+		RecoilForce		= "3"
+                FiringType		= "ShotGun"
+		Price			= "3450"
+			CanBeUsedInAutogenerating  =  "0"
+		Decal				= "DC_SML_MACHINEGUN"
+
+		ChargeSize     = "1"
+		RechargingTime = "3"
+
+		Durability		= "60"/>
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "rapier01_nolimit"
+		ModelFile		= "rapier01"
+		ResourceType	= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		
+		BulletPrototype	= "raybullet"
+		ExplosionType	= "CANNON"
+		FiringEffect	= "none"
+		Damage		= "160"
+		FiringRate		= "24"
+		GroupingAngle	= "0.6"
+		FiringRange		= "1200"
+		RecoilForce		= "50"
+		DamageType	= "BLAST"
+		Decal				= "DC_GUN"
+			CanBeUsedInAutogenerating  =  "0"
+		ChargeSize     = "1"
+		RechargingTime = "2.5"
+
+		Durability		= "70"
+		
+		BlastWavePrototype      = "smallBlastWave"
+		Price			= "20400"
+		FiringType		= "Cannon"
+		/>
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "vector01_nolimit"
+		ModelFile		= "vector01"
+		ResourceType		= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		
+		TracerEffect ="ET_PS_TRACER1"
+		TracerRange = "1" 
+
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage			= "35"
+		FiringRate		= "110"
+		GroupingAngle		= "1.4"
+		FiringRange		= "750"
+		RecoilForce		= "50"
+			CanBeUsedInAutogenerating  =  "0"
+		ChargeSize     = "50"
+		RechargingTime = "3.5"
+
+		Decal				= "DC_BIG_MACHINEGUN"
+
+		Price			= "5520"
+                FiringType		= "MachineGun"
+		Durability			= "50"/>
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "vulcan01_nolimit"
+		ModelFile			= "vulcan01"
+		ResourceType		= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage			= "5"
+		FiringRate		= "1100"
+		GroupingAngle		= "0.9"
+		FiringRange		= "400"
+		RecoilForce		= "50"
+			CanBeUsedInAutogenerating  =  "0"
+		ChargeSize     = "210"
+		RechargingTime = "7"
+
+		Decal				= "DC_BIG_MACHINEGUN"
+
+		Price			= "5630"
+                FiringType		= "MachineGun"
+		Durability		= "30"/>
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "flag01_nolimit"
+		ModelFile		= "flag01"
+		ResourceType		= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage		= "320"
+		NumBulletsInShot	= "20"
+		FiringRate		= "14"
+		GroupingAngle		= "3"
+		FiringRange		= "2000"
+		RecoilForce		= "1000"
+			CanBeUsedInAutogenerating  =  "0"
+		Decal			= "DC_BIG_MACHINEGUN"
+
+		ChargeSize     = "1"
+		RechargingTime = "4"
+
+		Price			= "8960"
+                FiringType		= "ShotGun"
+		BlastWavePrototype      = "smallBlastWave"
+		Durability		= "200"/>
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "kpvt01_nolimit"
+		ModelFile		= "kpvt01"
+		ResourceType		= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "AUTOCANNON"
+		FiringEffect		= "none"
+		Damage		= "8"
+		FiringRate		= "700"
+		GroupingAngle		= "1.1"
+		FiringRange		= "1000"
+		RecoilForce		= "300"
+			CanBeUsedInAutogenerating  =  "0"
+		Decal				= "DC_BIG_MACHINEGUN"
+
+		ChargeSize     = "130"
+		RechargingTime = "6"
+
+		Price			= "6400"
+                FiringType		= "MachineGun"
+		Durability		= "60"/>
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "rainmetal01_nolimit"
+		ModelFile		= "rainmetal01"
+		ResourceType		= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "AUTOCANNON"
+		FiringEffect		= "none"
+		Damage		= "30"
+		FiringRate		= "180"
+		GroupingAngle		= "1.0"
+		FiringRange		= "800"
+		RecoilForce		= "300"
+			CanBeUsedInAutogenerating  =  "0"
+		Decal				= "DC_BIG_MACHINEGUN"
+
+		ChargeSize     = "50"
+		RechargingTime = "5"
+
+		Price			= "7680"
+                FiringType		= "Cannon"
+		BlastWavePrototype      = "smallBlastWave"
+		Durability		= "100" />
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "octopus01_nolimit"
+		ModelFile		= "octopus01"
+		ResourceType		= "GIANT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		
+		Decal			= "DC_GUN"
+
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "AUTOCANNON"
+		FiringEffect		= "none"
+		Damage			= "25"
+		FiringRate		= "300"
+		GroupingAngle		= "2.2"
+		FiringRange		= "900"
+		RecoilForce		= "400"
+			CanBeUsedInAutogenerating  =  "0"
+		ChargeSize     		= "120"
+		RechargingTime 		= "6"
+                FiringType		= "MachineGun"
+		Price		= "32900"
+
+		Durability		= "150" />	
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "omega01_nolimit"
+		ModelFile		= "omega01"
+		ResourceType		= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		
+		ActionDist		= "1000"		
+		InitialVelocity		= "70"
+
+		Decal				= "DC_GUN"
+
+		BulletPrototype		= "someMortarShell02"
+		ExplosionType		= "GRENADE"
+		FiringEffect		= "none"
+		Damage		= "170"
+		FiringRate		= "90"
+		GroupingAngle		= "1.1"
+		FiringRange		= "500"
+		RecoilForce		= "300"
+               	CanBeUsedInAutogenerating  =  "0"
+		ChargeSize     = "18"
+		RechargingTime = "8"
+
+		Price			= "42000"
+        FiringType		= "Artillery"
+
+		TurningSpeed		= "100"
+
+		Durability		= "400"/>	
+</Prototypes>

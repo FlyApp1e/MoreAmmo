@@ -87,4 +87,207 @@
         Name="cartridgeBig"
         Class="Bullet"
         Price="220"/>
+
+    <Folder
+        _Action="Add"
+        _ParentXPath="Folder[@Name='Guns']"
+        _SelectorKeys="Name"
+        Name="UnlimitedGuns"
+        File="UnlimitedGuns.xml"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='staticAutoGun01']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="vulcan01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='staticAutoGun02']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="vulcan01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='staticAutoGun03']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="vulcan01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='staticAutoGun04']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="vulcan01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='staticAutoGun05']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="vulcan01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='staticAutoGun06']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="storm01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='staticAutoGun07']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="hornet01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='staticAutoGun08']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="specter01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='brick_dot1_vulcan']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="vulcan01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='brick_dot2_vulcan']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="vulcan01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='heavy_dot1_vulcan']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="vulcan01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='heavy_dot2_vulcan']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="vulcan01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='heavy_dot2_vector']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="vector01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='heavy_dot2_rainmetal']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="rainmetal01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='heavy_dot3_vulcan']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="vulcan01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='heavy_dot3_rainmetal']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="rainmetal01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='heavy_dot3_vector']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="vector01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='heavy_dot4_vulcan']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="vulcan01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='heavy_dot4_octopus']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="octopus01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='heavy_dot4_rapier']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="rapier01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='heavy_dot4_big_vector']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="vector01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='heavy_dot4_big_rainmetal']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="rainmetal01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='heavy_dot4_big_kpvt']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="kpvt01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='sack_dot1_vulcan']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="vulcan01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='sack_dot2_vulcan']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="vulcan01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='sack_dot2_flag']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="flag01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='sack_dot2_kord']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="kord01_nolimit"/>
+
+    <Part
+        _Action="Modify"
+        _ParentXPath="Folder[@Name='StaticAutoGuns']/Prototype[@Name='sack_dot2_omega']/Parts"
+        _SelectorKeys="id"
+        id="CANNON"
+        Prototype="omega01_nolimit"/>    
 </Prototypes>

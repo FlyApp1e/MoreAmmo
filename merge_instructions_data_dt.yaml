@@ -1,0 +1,3 @@
+- commands: data_dt\gamedata\gameobjects\_commands_DTguns.xml
+  targets: gamedata\gameobjects\DTguns.xml
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prototypes>
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="dshk01"
+        BulletPrototype="bullet12_7"
+        ShellsPoolSize="750"
+        WithShellsPoolLimit="true"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="rapier02"
+        BulletPrototype="projectile75"
+        ShellsPoolSize="36"
+        WithShellsPoolLimit="true"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="vulcan02"
+        BulletPrototype="bullet7_62"
+        ShellsPoolSize="1400"
+        WithShellsPoolLimit="true"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="bofors01"
+        BulletPrototype="projectile105"
+        ShellsPoolSize="20"
+        WithShellsPoolLimit="true"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="pkt02"
+        BulletPrototype="bullet7_62"
+        ShellsPoolSize="600"
+        WithShellsPoolLimit="true"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="pktu01"
+        BulletPrototype="bullet5_45"
+        ShellsPoolSize="600"
+        WithShellsPoolLimit="true"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="storm02"
+        BulletPrototype="cartridgeSmall"
+        ShellsPoolSize="40"
+        WithShellsPoolLimit="true"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="hornetA01"
+        BulletPrototype="bullet5_45"
+        ShellsPoolSize="360"
+        WithShellsPoolLimit="true"/>
+
+    <Prototype
+        _Action="Modify"
+        _SelectorKeys="Name"
+        Name="abzac01"
+        BulletPrototype="cartridgeBig"
+        ShellsPoolSize="48"
+        WithShellsPoolLimit="true"/>
+</Prototypes>
