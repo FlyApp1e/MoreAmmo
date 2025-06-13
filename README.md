@@ -9,6 +9,6 @@
 v1.1 - Добавлена совместимость с модом Different Things. Оружие из мода также будет иметь конечный боезапас.
 
 [ENG]
-An alternative to the AmmoMiniMod Reborn modification. Adds finite ammo to all existing weapons. The list of ammo has been expanded. Instead of the same projectile for all firearms, the mod features about 10 different calibers of bullets, shells, and shot cartridges with different costs. The modification was created using the ComMod merge functionality, which allows you to install it both on a clean game and after installing other modifications. moreammo_logo DEM ComMod version 3.0 and higher is required for installation. (https://github.com/Zvetkov/ComMod)
+An alternative to the AmmoMiniMod Reborn modification. Adds finite ammo to all existing weapons. The list of ammo has been expanded. Instead of the same projectile for all firearms, the mod features about 10 different calibers of bullets, shells, and shot cartridges with different costs. The modification was created using the ComMod merge functionality, which allows you to install it both on a clean game and after installing other modifications.DEM ComMod version 3.0 and higher is required for installation. (https://github.com/Zvetkov/ComMod)
 
 v1.1 - Added compatibility with the Different Things mod. Weapons from the mod will also have finite ammo.
