@@ -1,16 +1,16 @@
 # техническая информация о моде
 name: MoreAmmo # техническое имя мода (должно быть уникально для вашего мода, не должно быть похоже на существующие имена модов)
-language: ru # язык мода и его описания
+language: eng # язык мода и его описания
 installment: exmachina # часть игры для которой предназначен мод
-translations: [eng]
+
 # необходимая человекочитаемая информация
 display_name: More Ammo
 version: "1.1" # простая версия в формате 1.0 или 1.0.0
 build: "250613" # 22 - год, 12 - месяц, 30 - день (дата выхода версии мода)
 description: |
-  Альтернатива модификации AmmoMiniMod Reborn. Добавляет конечные боеприпасы всему существующему оружию.
-  Расширен список боеприпасов. Вместо одного и того же снаряда для всего огнестрельного оружия, в моде представленно
-  около 10 различных калибров пуль, снарядов и картриджей с дробью, имеющих разную стоимость.
+  An alternative to the AmmoMiniMod Reborn modification. Adds limited ammo to all existing weapons.
+  The list of ammo has been expanded. Instead of the same shell for all weapons, the mod features
+  about 10 different calibers of bullets, shells, and pellet cartridges, each with a different cost.
 
 authors: FlyApple # автор или авторы мода
  
@@ -43,5 +43,5 @@ optional_content:
     display_name: MoreAmmo for Different Things
     default_option: skip
     description: |
-      Делает конечным боезапас оружия, добавляемого модом Different Things.
-      ВНИМАНИЕ!!! Устанавливать только при наличии мода Different Things.
+      Makes the ammunition of weapons added by the Different Things mod limited.
+      ATTENTION!!! Install only if you have the Different Things mod installed.

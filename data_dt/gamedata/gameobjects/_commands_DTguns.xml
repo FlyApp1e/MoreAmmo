@@ -29,7 +29,7 @@
         _Action="Modify"
         _SelectorKeys="Name"
         Name="bofors01"
-        BulletPrototype="projectile105"
+        BulletPrototype="projectile75Explosive"
         ShellsPoolSize="20"
         WithShellsPoolLimit="true"/>
 
@@ -53,7 +53,7 @@
         _Action="Modify"
         _SelectorKeys="Name"
         Name="storm02"
-        BulletPrototype="cartridgeSmall"
+        BulletPrototype="cartridgeExplosive"
         ShellsPoolSize="40"
         WithShellsPoolLimit="true"/>
 
