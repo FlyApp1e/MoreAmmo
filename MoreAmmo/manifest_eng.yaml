@@ -1,0 +1,47 @@
+# техническая информация о моде
+name: MoreAmmo # техническое имя мода (должно быть уникально для вашего мода, не должно быть похоже на существующие имена модов)
+language: eng # язык мода и его описания
+installment: exmachina # часть игры для которой предназначен мод
+
+# необходимая человекочитаемая информация
+display_name: More Ammo
+version: "1.1.1" # простая версия в формате 1.0 или 1.0.0
+build: "250622" # 22 - год, 12 - месяц, 30 - день (дата выхода версии мода)
+description: |
+  An alternative to the AmmoMiniMod Reborn modification. Adds limited ammo to all existing weapons.
+  The list of ammo has been expanded. Instead of the same shell for all weapons, the mod features
+  about 10 different calibers of bullets, shells, and pellet cartridges, each with a different cost.
+
+authors: FlyApple # автор или авторы мода
+ 
+# опциональная человекочитаемая информация 
+# link: https://deuswiki.com/w/SuperWeatherMod # домашняя страничка мода
+tags: [weapons] 
+logo: moreammo_logo.png
+# информация о процессе инсталляции
+patcher_version_requirement: ">=3.0.6" # мод требует для установки версию ComMod больше или равную 1.13
+
+prerequisites: 
+  - name: community_remaster
+    versions:
+      - ">=1.14"
+
+strict_requirements: false      
+
+data_dirs:
+  - "data"
+
+merge_instructions:
+  - "merge_instructions_data.yaml"
+
+optional_content:
+  - name: dt
+    data_dirs:
+      - data_dt
+    merge_instructions: 
+      - "merge_instructions_data_dt.yaml"
+    display_name: MoreAmmo for Different Things
+    default_option: skip
+    description: |
+      Makes the ammunition of weapons added by the Different Things mod limited.
+      ATTENTION!!! Install only if you have the Different Things mod installed.
