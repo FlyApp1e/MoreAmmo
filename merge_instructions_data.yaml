@@ -20,4 +20,7 @@
   targets: gamedata\gameobjects\smallguns.xml    
 
 - commands: data\gamedata\gameobjects\_commands_thunderbolt.xml
-  targets: gamedata\gameobjects\thunderbolt.xml            
+  targets: gamedata\gameobjects\thunderbolt.xml   
+
+- commands: data\if\dialogs_16_9\_weaponinfolistinmaininterface.xml
+  targets: if\dialogs_16_9\weaponinfolistinmaininterface.xml         
